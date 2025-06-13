@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Udaan Holidays ✈️</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="hero text-center text-light d-flex align-items-center justify-content-center flex-column">
+    <h1 class="display-4 fw-bold">Udaan Holidays ✈️</h1>
+    <p class="lead">Walk this Way for Adventures</p>
+  </header>
+
+  <main class="container py-5">
+    <div class="row text-center mb-5">
+      <h2 class="fw-bold">Our Featured Tours</h2>
+    </div>
+    <div class="row g-4">
+      <!-- Meghalaya -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow">
+          <img src="assets/meghalaya.jpg" class="card-img-top" alt="Meghalaya">
+          <div class="card-body">
+            <h5 class="card-title">Meghalaya</h5>
+            <p class="card-text">Explore waterfalls, root bridges, and clouds.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Kaziranga -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow">
+          <img src="assets/kaziranga.jpg" class="card-img-top" alt="Kaziranga">
+          <div class="card-body">
+            <h5 class="card-title">Kaziranga</h5>
+            <p class="card-text">Spot rhinos and rich Assam wildlife.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Sikkim -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow">
+          <img src="assets/sikkim.jpg" class="card-img-top" alt="Sikkim">
+          <div class="card-body">
+            <h5 class="card-title">Sikkim & Gangtok</h5>
+            <p class="card-text">Snow, monasteries & mountain magic.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Darjeeling -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow">
+          <img src="assets/darjeeling.jpg" class="card-img-top" alt="Darjeeling">
+          <div class="card-body">
+            <h5 class="card-title">Darjeeling</h5>
+            <p class="card-text">Toy trains, tea gardens, and Kanchenjunga views.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Rajasthan -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow">
+          <img src="assets/rajasthan.jpg" class="card-img-top" alt="Rajasthan">
+          <div class="card-body">
+            <h5 class="card-title">Rajasthan</h5>
+            <p class="card-text">Royal palaces, forts, and desert safaris.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Puri -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow">
+          <img src="assets/puri.jpg" class="card-img-top" alt="Puri">
+          <div class="card-body">
+            <h5 class="card-title">Puri & Odisha</h5>
+            <p class="card-text">Jagannath temple and serene beaches.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="bg-dark text-light py-5">
+    <div class="container text-center">
+      <h3>Founders</h3>
+      <p><strong>Sumit Raja</strong> & <strong>Amit Das</strong></p>
+    </div>
+  </section>
+
+  <footer class="bg-black text-light text-center py-3">
+    <p>📍 Nagaon, Assam | 📞 7002659047, 6003480326</p>
+    <p>📧 udaanagency007@gmail.com</p>
+  </footer>
+
+  <a href="https://wa.me/9864480585" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+</body>
+</html>
